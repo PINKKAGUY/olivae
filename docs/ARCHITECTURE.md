@@ -4,7 +4,7 @@ A concise overview of how the project is built and why.
 
 ## Stack
 
-- **Next.js 14 (App Router)** with **TypeScript**
+- **Next.js 16 (App Router)** with **React 19** and **TypeScript**
 - **Tailwind CSS** for styling, with design tokens defined in `tailwind.config.ts`
 - **Framer Motion** for scroll reveals, parallax, and state transitions
 - **next/font** to self-host Cormorant Garamond and Jost (no runtime font requests)

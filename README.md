@@ -22,7 +22,8 @@ front-end craft: cinematic imagery, refined typography, and tasteful motion.
 
 | Area | Choice |
 |------|--------|
-| Framework | Next.js 14 (App Router) |
+| Framework | Next.js 16 (App Router) |
+| UI library | React 19 |
 | Language | TypeScript |
 | Styling | Tailwind CSS with a custom token palette |
 | Motion | Framer Motion |
