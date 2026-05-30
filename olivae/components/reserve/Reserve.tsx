@@ -19,7 +19,7 @@ const empty: ReserveForm = {
 };
 
 const fieldBase =
-  'w-full bg-transparent border-b border-gold/30 py-3 text-ivory placeholder-warmgray focus:border-gold focus:outline-none transition-colors';
+  'w-full bg-transparent border-b border-gold/30 py-3 text-ivory placeholder-warmgray focus:border-gold focus:outline-hidden transition-colors';
 
 export function Reserve() {
   const [form, setForm] = useState<ReserveForm>(empty);

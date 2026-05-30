@@ -55,7 +55,7 @@ export function Gallery() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={() => setActive(null)}
-            className="fixed inset-0 z-[60] flex items-center justify-center bg-charcoal/90 p-6"
+            className="fixed inset-0 z-60 flex items-center justify-center bg-charcoal/90 p-6"
           >
             <div className="relative h-[80vh] w-full max-w-4xl">
               <Image src={active.src} alt={active.alt} fill className="object-contain" />

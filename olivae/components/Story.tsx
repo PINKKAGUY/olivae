@@ -10,7 +10,7 @@ export function Story() {
     <Section id="story" className="bg-night">
       <div className="grid items-center gap-12 md:grid-cols-2 md:gap-20">
         <Reveal>
-          <div className="relative aspect-[4/5] w-full overflow-hidden">
+          <div className="relative aspect-4/5 w-full overflow-hidden">
             <Image src={story.image} alt="Inside Olivae" fill className="object-cover" />
           </div>
         </Reveal>

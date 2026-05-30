@@ -22,7 +22,7 @@ export function Hero() {
           priority
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/70 via-charcoal/50 to-charcoal" />
+        <div className="absolute inset-0 bg-linear-to-b from-charcoal/70 via-charcoal/50 to-charcoal" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(14,14,12,0.6)_0%,rgba(14,14,12,0.15)_55%,transparent_80%)]" />
       </motion.div>
 

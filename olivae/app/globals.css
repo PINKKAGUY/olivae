@@ -1,6 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-charcoal: #0e0e0c;
+  --color-night: #16170f;
+  --color-gold: #c8a24b;
+  --color-goldlight: #e3c77a;
+  --color-olive: #6b7245;
+  --color-ivory: #f4efe6;
+  --color-warmgray: #a9a498;
+
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans: var(--font-jost), sans-serif;
+
+  --tracking-eyebrow: 0.28em;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility hairline {
+  @apply h-px w-full bg-linear-to-r from-transparent via-gold/40 to-transparent;
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
 
 @layer base {
   html { scroll-behavior: smooth; }
@@ -8,9 +47,4 @@
     @apply bg-charcoal text-ivory font-sans antialiased;
   }
   ::selection { @apply bg-gold text-charcoal; }
-}
-
-@layer utilities {
-  .hairline { @apply h-px w-full bg-gradient-to-r from-transparent via-gold/40 to-transparent; }
-  .text-balance { text-wrap: balance; }
 }
