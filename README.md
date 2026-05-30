@@ -4,6 +4,8 @@ A premium, single-page landing site for **Olivae** — a fictional high-end Medi
 restaurant set in Dubai. Built as a portfolio piece to showcase modern, agency-level
 front-end craft: cinematic imagery, refined typography, and tasteful motion.
 
+**🔗 Live demo: <https://pinkkaguy.github.io/olivae/>**
+
 > Concept project. Olivae is not a real restaurant; all content is illustrative.
 
 ## Highlights
